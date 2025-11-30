@@ -11,5 +11,8 @@ public class App {
 
         Produit pc = fabrique.createProduit("C");
         pc.methodeproduit();
+
+        Produit pd = fabrique.createProduit("D");
+        pc.methodeproduit();
     }
 }

@@ -10,7 +10,9 @@ public class FabriqueProduit {
         else if (categorie.equalsIgnoreCase("C")) {
             return new ProduitC();
         }
-
+        else if (categorie.equalsIgnoreCase("D")){
+            return  new ProduitD();
+        }
         return null;
     }
 
